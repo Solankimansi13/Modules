@@ -1,0 +1,42 @@
+<<<<<<< HEAD
+/* Normal Link */
+.normal-link {
+    color: blue;
+    text-decoration: wavy;
+  }
+  
+  /* Visited Link */
+  .visited-link:visited {
+    color: purple;
+  }
+  
+  /* Hover Link */
+  .hover-link:hover {
+    color: red;
+  }
+  
+  /* Active Link */
+  .active-link:active {
+    color: green;
+=======
+/* Normal Link */
+.normal-link {
+    color: blue;
+    text-decoration: wavy;
+  }
+  
+  /* Visited Link */
+  .visited-link:visited {
+    color: purple;
+  }
+  
+  /* Hover Link */
+  .hover-link:hover {
+    color: red;
+  }
+  
+  /* Active Link */
+  .active-link:active {
+    color: green;
+>>>>>>> origin/main
+  }

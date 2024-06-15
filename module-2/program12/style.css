@@ -1,0 +1,98 @@
+<<<<<<< HEAD
+.shape1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    transition: all 0.5s;
+  }
+  
+  .shape2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    transition: all 0.5s;
+  }
+  
+  .shape3 {
+    width: 150px;
+    height: 75px;
+    background-color: orange;
+    text-align: center;
+    line-height: 75px;
+    color: white;
+    transition: all 0.5s;
+  }
+  
+  .shape1:hover {
+    background-color: red;
+    transform: rotate(45deg);
+    font-size: 20px;
+  }
+  
+  .shape2:hover {
+    background-color: purple;
+    transform: scale(1.2);
+    font-size: 18px;
+  }
+  
+  .shape3:hover {
+    background-color: yellow;
+    transform: scaleX(2);
+    font-size: 16px;
+=======
+.shape1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    transition: all 0.5s;
+  }
+  
+  .shape2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    transition: all 0.5s;
+  }
+  
+  .shape3 {
+    width: 150px;
+    height: 75px;
+    background-color: orange;
+    text-align: center;
+    line-height: 75px;
+    color: white;
+    transition: all 0.5s;
+  }
+  
+  .shape1:hover {
+    background-color: red;
+    transform: rotate(45deg);
+    font-size: 20px;
+  }
+  
+  .shape2:hover {
+    background-color: purple;
+    transform: scale(1.2);
+    font-size: 18px;
+  }
+  
+  .shape3:hover {
+    background-color: yellow;
+    transform: scaleX(2);
+    font-size: 16px;
+>>>>>>> origin/main
+  }

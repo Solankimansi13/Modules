@@ -1,0 +1,371 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Individual Registration Form</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            width: 50%;
+            margin: 50px auto;
+            background-color: skyblue;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-title {
+            color: red;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .form-section {
+            margin-bottom: 20px;
+        }
+        .form-section label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-section input[type="text"],
+        .form-section select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-section select {
+            appearance: none;
+            background-image: url('data:image/svg+xml;utf8,<svg fill="%231f2d3d" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+            background-repeat: no-repeat;
+            background-position-x: 100%;
+            background-position-y: 50%;
+            padding-right: 30px;
+        }
+        .form-buttons {
+            text-align: center;
+        }
+        .form-buttons button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        .form-buttons button:last-child {
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <form action="#" method="post">
+        <div class="form-title">User Particulars</div>
+        <div class="form-section">
+            <label for="loginId">Login ID:</label>
+            <input type="text" id="loginId" name="loginId" required>
+        </div>
+        <div class="form-section">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-section">
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+        </div>
+
+        <div class="form-title">Personal Particulars</div>
+        <div class="form-section">
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                    <label for="salutation">Salutation:</label>
+                    <select id="salutation" name="salutation" required>
+                        <option value="">Select Salutation</option>
+                        <option value="Mr.">Mr.</option>
+                        <option value="Mrs.">Mrs.</option>
+                        <option value="Ms.">Ms.</option>
+                    </select>
+                </div>
+                <div style="flex: 1;">
+                    <label for="middleName">Middle Name:</label>
+                    <input type="text" id="middleName" name="middleName">
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                    <label for="residentStatus">Resident Status:</label>
+                    <select id="residentStatus" name="residentStatus" required>
+                        <option value="">Select Resident Status</option>
+                        <option value="Resident">Resident</option>
+                        <option value="Non-Resident">Non-Resident</option>
+                    </select>
+                </div>
+                <div style="flex: 1;">
+                    <label for="email">Email ID:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+        </div>
+        <div class="form-section">
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div style="flex: 1;">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                    <label for="country">Country:</label>
+                    <select id="country" name="country" required>
+                        <option value="">Select Country</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="Canada">Canada</option>
+                    </select>
+                </div>
+                <div style="flex: 1;">
+                    <label for="mobileNumber">Mobile Number:</label>
+                    <input type="text" id="mobileNumber" name="mobileNumber" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-title">Banking Details</div>
+        <div class="form-section">
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                    <label for="accountNumber">Account Number:</label>
+                    <input type="text" id="accountNumber" name="accountNumber" required>
+                </div>
+                <div style="flex: 1;">
+                    <label for="fundTransfer">Fund Transfer:</label>
+                    <select id="fundTransfer" name="fundTransfer" required>
+                        <option value="">Select Fund Transfer</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                    <label for="nickName">Nick Name:</label>
+                    <input type="text" id="nickName" name="nickName" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-title">Declaration</div>
+        <div class="form-section">
+            <p>i have read, understood and heardby  Agree to the terms and Conditions in ressprct of all products and channels. </p>
+			<p>i understood that any changes in the terms and conditions applicable to this relationship to be made available to me on request at any IOB branches. i confirm that all accounts under this login name are operated signly and in case of joint account operated by either of survivior/ anyone or surviver(s) under his/her joint name respectively. i do herby declare that information furnished in this form is ture to the best of my knowledge and belide.</p>
+        </div>
+
+        <div class="form-buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Individual Registration Form</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            width: 50%;
+            margin: 50px auto;
+            background-color: skyblue;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-title {
+            color: red;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .form-section {
+            margin-bottom: 20px;
+        }
+        .form-section label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-section input[type="text"],
+        .form-section select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-section select {
+            appearance: none;
+            background-image: url('data:image/svg+xml;utf8,<svg fill="%231f2d3d" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+            background-repeat: no-repeat;
+            background-position-x: 100%;
+            background-position-y: 50%;
+            padding-right: 30px;
+        }
+        .form-buttons {
+            text-align: center;
+        }
+        .form-buttons button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        .form-buttons button:last-child {
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <form action="#" method="post">
+        <div class="form-title">User Particulars</div>
+        <div class="form-section">
+            <label for="loginId">Login ID:</label>
+            <input type="text" id="loginId" name="loginId" required>
+        </div>
+        <div class="form-section">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-section">
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+        </div>
+
+        <div class="form-title">Personal Particulars</div>
+        <div class="form-section">
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                    <label for="salutation">Salutation:</label>
+                    <select id="salutation" name="salutation" required>
+                        <option value="">Select Salutation</option>
+                        <option value="Mr.">Mr.</option>
+                        <option value="Mrs.">Mrs.</option>
+                        <option value="Ms.">Ms.</option>
+                    </select>
+                </div>
+                <div style="flex: 1;">
+                    <label for="middleName">Middle Name:</label>
+                    <input type="text" id="middleName" name="middleName">
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                    <label for="residentStatus">Resident Status:</label>
+                    <select id="residentStatus" name="residentStatus" required>
+                        <option value="">Select Resident Status</option>
+                        <option value="Resident">Resident</option>
+                        <option value="Non-Resident">Non-Resident</option>
+                    </select>
+                </div>
+                <div style="flex: 1;">
+                    <label for="email">Email ID:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+        </div>
+        <div class="form-section">
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div style="flex: 1;">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                    <label for="country">Country:</label>
+                    <select id="country" name="country" required>
+                        <option value="">Select Country</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="Canada">Canada</option>
+                    </select>
+                </div>
+                <div style="flex: 1;">
+                    <label for="mobileNumber">Mobile Number:</label>
+                    <input type="text" id="mobileNumber" name="mobileNumber" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-title">Banking Details</div>
+        <div class="form-section">
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                    <label for="accountNumber">Account Number:</label>
+                    <input type="text" id="accountNumber" name="accountNumber" required>
+                </div>
+                <div style="flex: 1;">
+                    <label for="fundTransfer">Fund Transfer:</label>
+                    <select id="fundTransfer" name="fundTransfer" required>
+                        <option value="">Select Fund Transfer</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                    <label for="nickName">Nick Name:</label>
+                    <input type="text" id="nickName" name="nickName" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-title">Declaration</div>
+        <div class="form-section">
+            <p>i have read, understood and heardby  Agree to the terms and Conditions in ressprct of all products and channels. </p>
+			<p>i understood that any changes in the terms and conditions applicable to this relationship to be made available to me on request at any IOB branches. i confirm that all accounts under this login name are operated signly and in case of joint account operated by either of survivior/ anyone or surviver(s) under his/her joint name respectively. i do herby declare that information furnished in this form is ture to the best of my knowledge and belide.</p>
+        </div>
+
+        <div class="form-buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
+>>>>>>> origin/main
